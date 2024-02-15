@@ -16,18 +16,18 @@ export default function Navbar() {
             </div>
           </div>
           <div>
-            <div className="text-center lg:text-left lg:flex ">
+            <div className="text-center lg:text-left  lg:flex lg:justify-between lg:bg-black lg:text-white">
                 <div>
-              <div className="logo text-lg font-bold hidden lg:block">Logo</div>
+              <div className="logo text-lg font-bold hidden lg:block lg:m-2 lg:ml-10 xl:ml-10">Logo</div>
               </div>
-              <div className=" lg:flex  ">
-              <div className="mb-1 ">Home</div>
-              <div className="mb-1">Services</div>
-              <div className="mb-1">Find a Team</div>
-              <div className="mb-1">About Us</div>
-              <div className="mb-1">Articles</div>
-              <div className="mb-1">Portfolio</div>
-              <div className="mb-1">Contact Us</div>
+              <div className=" lg:flex  lg:pr-8 lg:pt-2 xl:pr-12">
+              <div className="mb-1 lg:pl-11 xl:pl-20">Home</div>
+              <div className="mb-1 lg:pl-11 xl:pl-20">Services</div>
+              <div className="mb-1 lg:pl-11 xl:pl-20">Find a Team</div>
+              <div className="mb-1 lg:pl-11 xl:pl-20">About Us</div>
+              <div className="mb-1 lg:pl-11 xl:pl-20">Articles</div>
+              <div className="mb-1 lg:pl-11 xl:pl-20">Portfolio</div>
+              <div className="mb-1 lg:pl-11 xl:pl-20">Contact Us</div>
               </div>
             </div>
           </div>
