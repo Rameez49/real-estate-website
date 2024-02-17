@@ -38,14 +38,14 @@ export default function Navbar() {
               <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20">Portfolio</div>
               <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20">Contact Us</div>
               </div>
-             {!toggle ? <div className=" md:flex md:pr-5 lg:pr-8 md:pt-2.5 xl:pr-12">
-              <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20">Home</div>
-              <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20">Services</div>
-              <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20">Find a Team</div>
-              <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20">About Us</div>
-              <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20">Articles</div>
-              <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20">Portfolio</div>
-              <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20">Contact Us</div>
+             {!toggle ? <div className="  md:hidden lg:hidden bg-[#5e5d58] text-white pt-3 pb-3">
+              <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20 hover:bg-white hover:text-black">Home</div>
+              <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20 hover:bg-white hover:text-black">Services</div>
+              <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20 hover:bg-white hover:text-black">Find a Team</div>
+              <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20 hover:bg-white hover:text-black">About Us</div>
+              <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20 hover:bg-white hover:text-black">Articles</div>
+              <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20 hover:bg-white hover:text-black">Portfolio</div>
+              <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20 hover:bg-white hover:text-black">Contact Us</div>
               </div>
 : ""}
             </div>
