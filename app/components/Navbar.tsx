@@ -38,7 +38,7 @@ export default function Navbar() {
               <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20">Portfolio</div>
               <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20">Contact Us</div>
               </div>
-             {!toggle ? <div className="  md:hidden lg:hidden bg-[#5e5d58] text-white pt-3 pb-3">
+             {!toggle ? <div className="  md:hidden lg:hidden bg-[#3f3f3f] text-white pt-3 pb-3">
               <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20 hover:bg-white hover:text-black">Home</div>
               <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20 hover:bg-white hover:text-black">Services</div>
               <div className="mb-1 md:pl-6 lg:pl-11 xl:pl-20 hover:bg-white hover:text-black">Find a Team</div>
